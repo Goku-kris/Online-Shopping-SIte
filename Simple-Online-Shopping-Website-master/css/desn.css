@@ -1,0 +1,78 @@
+body{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/15.jpeg) no-repeat;
+	background-size: cover;
+}
+.form{
+	text-align: center;
+	margin-top: 3%;
+	margin-left: 20%;
+}
+#registration{
+	width: 80%;
+	background-color: #051019;
+	opacity: 0.8;
+	padding: 50px 0px;
+}
+#button{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+}
+#ph{
+	outline: 0px;
+	width: 70px;
+	padding: 10px;
+	border-radius: 5px;
+}
+#phone{
+	outline: 0px;
+	width: 200px;
+	padding: 10px;
+	border-radius: 5px;
+}
+#rd{
+
+}
+#but{
+	color: white;
+	font-size: 18px;
+}
+#butt{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+	background-color: #0c6996;
+	border: 2px solid #01010c;
+	color: aliceblue;
+	font-size: 18px;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.text
+{
+	color: red;
+}

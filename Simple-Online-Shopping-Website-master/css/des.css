@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	<span style="font-family: "Raleway Bold">;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/13.jpg) no-repeat;
+	background-size: cover;
+}
+.login-box{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	background-color: #051019;
+	opacity: 0.8;
+	padding: 30px;
+}
+.login-box h1{
+	float: left;
+	font-size: 40px;
+	border-bottom: 6px solid #4caf50;
+	margin-bottom: 50px;
+	padding: 13px;
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	border-bottom: 1px solid #4caf50 
+}
+.btn
+{
+	background-color: #4CAF50;
+	color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+h1
+{
+	text-shadow: 2px 2px 4px #000000;
+	color: yellowgreen;
+}
+.cart{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #051019;
+	opacity: 0.8;
+	padding: 60px;
+}
